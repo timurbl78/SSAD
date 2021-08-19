@@ -41,3 +41,7 @@ Probably this will work with the most browsers, but here is a list which browser
 |:--------------:|:---------:|
 |     Firefox    |     ✅     |
 |     Chrome     |     ✅     |
+
+## Developers:
+[Timur Belov](https://github.com/timurbl78)
+[Maxim Stepanov](https://github.com/sokratmillman)
