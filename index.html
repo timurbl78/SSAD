@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello there</title>
+</head>
+<body>
+    <main>
+        <button class="main-button">
+          Get Quote
+        </button>
+        <blockquote class="main-blockquote">
+          This is quote
+      </blockquote>
+    </main>
+    <script>
+      const button = document.querySelector('.main-button');
+      const blockquote = document.querySelector('.main-blockquote');
+
+      blockquote.style.display="none";
+      let isNone = true;
+
+      button.addEventListener('click', () => {
+        if (isNone) {
+          blockquote.style.display="block";
+          button.textContent = "Hide Quote";
+          isNone = false;
+        } else {
+          blockquote.style.display="none";
+          isNone = true;
+          button.textContent = "Get Quote";
+        }
+      })
+    </script>
+</body>
+</html>
