@@ -43,5 +43,5 @@ Probably this will work with the most browsers, but here is a list which browser
 |     Chrome     |     ✅     |
 
 ## Developers:
-[Timur Belov](https://github.com/timurbl78)
+[Timur Belov](https://github.com/timurbl78)<br>
 [Maxim Stepanov](https://github.com/sokratmillman)
